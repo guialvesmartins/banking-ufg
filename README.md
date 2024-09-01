@@ -45,8 +45,7 @@ $ npm install ts-node-dev -D
 $ npx tsc --init
 $ npx primsa init 
 
-````bash
 ## Apos configurar o schema.prisma 
-```bash
+
 $ npx prisma generate
 
