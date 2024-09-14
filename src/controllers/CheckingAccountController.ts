@@ -50,7 +50,7 @@ class CheckingAccountController {
 
     getAll = async (req: Request, res: Response) => {
         try {
-            const checkingAccounts = this.checkingAccontService.getAll();
+            const checkingAccounts = await this.checkingAccontService.getAll();
             return res.status(200).json(checkingAccounts);
         } catch (error) {
             this.handleError(res, error,"Error fetching checkingAcconunt");
