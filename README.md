@@ -49,3 +49,6 @@ $ npx primsa init
 
 $ npx prisma generate
 
+$ npm install jsonwebtoken  
+$ npm install @types/jsonwebtoken -D
+
